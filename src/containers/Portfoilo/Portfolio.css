@@ -1,0 +1,27 @@
+header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  /* text-align: start; */
+}
+
+header li {
+  display: inline-block;
+  margin: 20px;
+}
+
+header a {
+  color: rgb(105, 105, 105);
+  text-decoration: none;
+}
+
+header a:hover,
+header a:active,
+header a.active {
+  color: #3e98ff;
+}
+
+#name {
+  margin-left: auto;
+}
