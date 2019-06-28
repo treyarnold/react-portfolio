@@ -7,7 +7,7 @@ const about = () => (
   <main>
     <div>
       <h2>
-        <strong>Hi. I am Trey</strong>
+        <strong>Hey. I am Trey</strong>
         <Button title="LinkedIn" />
         <Button title="GitHub" />
       </h2>

@@ -3,7 +3,7 @@ import { Route } from "react-router-dom";
 
 import Contact from "../../components/Contact/Contact";
 import About from "../../components/About/About";
-import Portfolio from "../../components/Portfolio/Portfolio";
+import Portfolio from "../Portfolio/Portfolio";
 import Header from "../../components/Navigation/Header/Header";
 
 const layout = () => (

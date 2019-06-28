@@ -1,0 +1,11 @@
+.card {
+  margin: 2rem auto;
+  max-width: 80%;
+  border: 1px solid;
+  padding: 1rem;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.card:hover {
+  background-color: #3e98ff;
+}
