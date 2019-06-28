@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 import classes from "./PortfolioItem.module.css";
 
 const yelpCamp = require("../../../data/images/yelpcamp-min.png");
-const pokerFace = require("../../../data/images/pokerFace.png");
-const aisInventory = require("../../../data/images/aisInventory.png");
-const potterWords = require("../../../data/images/potterWords.png");
-const counterAttack = require("../../../data/images/counterAttack.png");
-const thisSite = require("../../../data/images/portfolio.png");
+const pokerFace = require("../../../data/images/pokerFace-min.png");
+const aisInventory = require("../../../data/images/aisInventory-min.png");
+const potterWords = require("../../../data/images/potterWords-min.png");
+const counterAttack = require("../../../data/images/counterAttack-min.png");
+const thisSite = require("../../../data/images/portfolio-min.png");
 
 const portfolioItem = (props) => {
   let image;
