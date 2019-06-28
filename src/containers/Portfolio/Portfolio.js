@@ -30,7 +30,6 @@ function Portfolio() {
   const [projects, setProjects] = useState([...projectList]);
 
   const changeTechHandler = (techChoice) => {
-    console.log(techChoice);
     const newProjects = [...projects];
     const newTech = newProjects.map((project) => {
       if (project.tech.includes(techChoice) || techChoice === "All Tech") project.display = true;
