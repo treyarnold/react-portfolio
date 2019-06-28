@@ -1,14 +1,14 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 
-import Portfolio from './containers/Portfoilo/Portfolio'
+import Layout from './containers/Layout/Layout'
 import './App.css';
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <Portfolio />
+        <Layout />
       </div>
     </BrowserRouter>
   );

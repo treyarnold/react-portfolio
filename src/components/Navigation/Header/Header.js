@@ -1,14 +1,15 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
+import NavItems from "../NavItems/NavItems";
+import "./Header.css";
+
 const header = () => (
   <header>
     <nav>
       <ul>
         <li>Trey Arnold</li>
-        <li id="name"><NavLink>About</NavLink></li>
-        <li><NavLink>Portfolio</NavLink></li>
-        <li><NavLink>Contact</NavLink></li>
+        <NavItems />
       </ul>
     </nav>
   </header>
