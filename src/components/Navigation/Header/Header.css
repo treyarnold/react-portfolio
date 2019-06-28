@@ -5,6 +5,11 @@ header ul {
   width: 100%;
   display: flex;
   text-align: end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: white;
 }
 
 header ul li:first-child {
@@ -17,7 +22,6 @@ header li {
 }
 
 header a {
-  color: rgb(105, 105, 105);
   text-decoration: none;
 }
 

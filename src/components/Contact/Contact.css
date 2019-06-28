@@ -1,0 +1,12 @@
+div p {
+  margin-left: 3rem;
+}
+
+div p a {
+  text-decoration: none;
+  color: rgb(119, 119, 119);
+}
+
+div p a:hover {
+  color: #3e98ff;
+}

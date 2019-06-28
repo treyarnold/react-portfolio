@@ -1,5 +1,5 @@
 import React from "react";
-import {Route, NavLink } from "react-router-dom";
+import { Route } from "react-router-dom";
 
 import Contact from "../../components/Contact/Contact";
 import About from "../../components/About/About";
@@ -11,7 +11,7 @@ const layout = () => (
     <Header />
     <Route path="/portfolio" component={Portfolio} />
     <Route path="/contact" component={Contact} />
-    <Route path="/" component={About} />
+    <Route path="/" exact component={About} />
   </React.Fragment>
 )
 
