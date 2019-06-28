@@ -1,0 +1,12 @@
+.techOptions {
+  max-width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.techOptions label {
+  margin-right: 1rem;
+}

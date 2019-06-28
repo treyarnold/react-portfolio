@@ -7,12 +7,17 @@ import classes from "./FullProject.module.css";
 
 const yelpCamp = require("../../../data/images/yelpcamp-min.png");
 const pokerFace = require("../../../data/images/pokerFace.png");
+const aisInventory = require("../../../data/images/aisInventory.png");
+const potterWords = require("../../../data/images/potterWords.png");
+const counterAttack = require("../../../data/images/counterAttack.png");
+const thisSite = require("../../../data/images/portfolio.png");
 
 const fullProject = (props) => {
 
   let project;
-  projects.map((proj) => {
-    if (proj.id == props.match.params.id) {
+  projects.forEach((proj) => {
+    let paramID = parseInt(props.match.params.id)
+    if (proj.id === paramID) {
       project = proj;
     }
   })
@@ -21,11 +26,16 @@ const fullProject = (props) => {
   switch (project.title) {
     case "Yelp Camp": image = yelpCamp; break;
     case "Texas Hold'em": image = pokerFace; break;
+    case "AIS Inventory": image = aisInventory; break;
+    case "Potter Words": image = potterWords; break;
+    case "Counter Attack": image = counterAttack; break;
+    case "This Site": image = thisSite; break;
+    default: image= null;
   }
 
   const fullDescription = (
     <div className={classes.card}>
-      <a href={project.deployed} target="_blank">
+      <a href={project.deployed} rel="noopener noreferrer" target="_blank">
         <img className={classes.image} src={image} alt={project.title}></img>
       </a>
       <div className={classes.title}>
