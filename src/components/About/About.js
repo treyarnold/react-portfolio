@@ -1,15 +1,15 @@
 import React from "react";
 
 import Button from "../../UI/Button/Button";
-import "./About.css";
+import classes from "./About.module.css";
 
 const about = () => (
   <main>
     <div>
       <h2>
-        <strong>Hey. I am Trey</strong>
-        <Button title="LinkedIn" />
-        <Button title="GitHub" />
+        <strong className={classes.greeting}>Hey. I am Trey</strong>
+        <Button url="https://www.linkedin.com/in/trey-arnold/" title="LinkedIn" />
+        <Button url="https://github.com/treyarnold" title="GitHub" />
       </h2>
     </div>
     <section>
