@@ -12,9 +12,9 @@ const layout = () => (
     <Header />
     <Route path="/portfolio" exact component={Portfolio} />
     <Route path="/contact" component={Contact} />
-    <Route path="/" exact component={About} />
     <Route path="/portfolio/:id" component={FullProject} />
+    <Route path="/" exact component={About} />
   </Router>
-)
+);
 
 export default layout;
